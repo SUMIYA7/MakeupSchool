@@ -1,8 +1,8 @@
 [
   {
-    "_id": "642c155b2c4774f05c36eeb5",    "name": "John Smith",
+    "_id": "642c155b2c4774f05c36eeb5",    "name": "Monica",
     "image": "https://images.unsplash.com/photo-1613186420419-868111e7ac07?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-    "description": "Professor of Paramitter",
+    "description": "Professor of skincare",
     "students": 200
   },
   {
