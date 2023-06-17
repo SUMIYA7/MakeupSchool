@@ -21,4 +21,4 @@ Back-end: express & nodejs
 Database: Mongodb
 
 # live site link #
-The live site link of Makeup School :
+The live site link of Makeup School :https://makeupschool-b60fd.web.app
