@@ -63,9 +63,7 @@ const SignUp = () => {
               <h1 className="text-5xl font-bold">Sign up now!</h1>
               <p className="py-6">
                 Welcome to our Makeup School! We are dedicated to
-                providing a comprehensive Makeup education and Our mission is to empower aspiring chefs
-                with the skills, knowledge, and cultural understanding necessary
-                to excel in the world of gastronomy.
+                providing a comprehensive Makeup education.
               </p>
             </div>
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-gray-200">
