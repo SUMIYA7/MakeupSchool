@@ -11,12 +11,12 @@ This repository contains the source code for the website of the Makeup School. T
 
 4.Enrollment and Registration: Easily enroll in your preferred courses and complete the registration process online, ensuring a seamless and convenient experience.
 
-5.Blog and Resources: Explore our blog section, which provides informative articles, tips, and tutorials related to makeup artistry, skincare, hair styling, and other beauty topics.
+5.Blog and Resources: explore our blog section, which provides informative articles, tips, and tutorials related to makeup artistry, skincare, hair styling, and other beauty topics.
 
 # Used package / Technologies
 
 Front-end: React, JavaScript
-Framework: Tailwind
+Framework:Tailwind
 Back-end: express & nodejs
 Database: Mongodb
 
