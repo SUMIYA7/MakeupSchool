@@ -14,7 +14,7 @@ const Testimonials = () => {
     const [reviews, setReviews] = useState([]);
 
     useEffect(() => {
-        fetch("https://baiust-male.onrender.com/reviews")
+        fetch("http://localhost:5000/reviews")
           .then((res) => res.json())
           .then((data) => setReviews(data));
     }, [])

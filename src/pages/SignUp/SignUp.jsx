@@ -23,7 +23,7 @@ const SignUp = () => {
                 updateUserProfile(data.name, data.photoURL)
                     .then(() => {
                         const saveUser = { name: data.name, email: data.email, role: 'user' }
-                        fetch('https://baiust-male.onrender.com/users', {
+                        fetch('http://localhost:5000/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'
@@ -55,15 +55,15 @@ const SignUp = () => {
     return (
       <>
         <Helmet>
-          <title>Culinary School | Sign Up</title>
+          <title>Makeup School | Sign Up</title>
         </Helmet>
         <div className="hero min-h-screen bg-gray-300 text-black">
           <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="text-center lg:text-left">
               <h1 className="text-5xl font-bold">Sign up now!</h1>
               <p className="py-6">
-                Welcome to Taste & Learn Culinary School! We are dedicated to
-                providing a comprehensive culinary education and igniting a
+                Welcome to Taste & Learn Makeup School! We are dedicated to
+                providing a comprehensive Makeupeducation and igniting a
                 passion for cooking. Our mission is to empower aspiring chefs
                 with the skills, knowledge, and cultural understanding necessary
                 to excel in the world of gastronomy.

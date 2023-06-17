@@ -16,7 +16,7 @@ const SocialLogin = () => {
             .then(result => {
                 const loggedInUser = result.user;
                 const saveUser = { name: loggedInUser.displayName, email: loggedInUser.email, role: 'user' }
-                fetch('https://baiust-male.onrender.com/users', {
+                fetch('http://localhost:5000/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
@@ -40,7 +40,7 @@ const SocialLogin = () => {
                   email: loggedInUser.email,
                   role: "user",
                 };
-                fetch('https://baiust-male.onrender.com/users', {
+                fetch('http://localhost:5000/users', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

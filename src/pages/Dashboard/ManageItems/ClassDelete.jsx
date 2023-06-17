@@ -5,14 +5,14 @@ const handleDelete = (id) => {
 
     const [job, setJob] = useState([]);
     useEffect(() => {
-      fetch(`https://baiust-male.onrender.com/menu`)
+      fetch(`http://localhost:5000/menu`)
         .then((res) => res.json())
         .then((data) => setJob(data));
     }, []);
 
   const proceed = window.confirm("Are you sure?");
   if (proceed) {
-    fetch(`https://baiust-male.onrender.com/menu/${id}`, {
+    fetch(`http://localhost:5000/menu/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
@@ -27,7 +27,7 @@ const handleDelete = (id) => {
   }
 };
 
-//https://baiust-male.onrender.com/menuId?_id=642c155b2c4774f05c36ee81
+//http://localhost:5000/menuId?_id=642c155b2c4774f05c36ee81
 const ClassDelete = () => {
     return (
       <div>

@@ -9,7 +9,7 @@ const useInstructors = () => {
     queryKey: ["instructors"],
     queryFn: async () => {
       const res = await fetch(
-        "https://baiust-male.onrender.com/allinstructors"
+        "http://localhost:5000/allinstructors"
       );
       return res.json();
     },

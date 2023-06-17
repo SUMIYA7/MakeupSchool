@@ -13,7 +13,7 @@ const AllUsers = () => {
     })
 
     const handleMakeAdmin = user =>{
-        fetch(`https://baiust-male.onrender.com/users/admin/${user._id}`, {
+        fetch(`http://localhost:5000/users/admin/${user._id}`, {
           method: "PATCH",
         })
           .then((res) => res.json())

@@ -56,12 +56,12 @@ import AllInstructors from "../pages/Home/AllInstructors/AllInstructors";
         {
           path: "allinstructors",
           element: <AllInstructors></AllInstructors>,
-          loader: () => fetch("https://baiust-male.onrender.com/allinstructors"),
+          loader: () => fetch("http://localhost:5000/allinstructors"),
         },
         {
           path: "/allclasses",
           element: <AllClasses></AllClasses>,
-          loader: () => fetch("https://baiust-male.onrender.com/menu"),
+          loader: () => fetch("http://localhost:5000/menu"),
         },
       ],
     },

@@ -6,7 +6,7 @@ const Instructors = () => {
   const [instructors, setInstructors] = useState([]);
 
   useEffect(() => {
-    fetch("https://baiust-male.onrender.com/allinstructors")
+    fetch("http://localhost:5000/allinstructors")
       .then((response) => response.json())
       .then((data) => {
         // Sort the instructors based on the number of students

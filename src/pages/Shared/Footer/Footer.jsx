@@ -2,13 +2,12 @@
 const Footer = () => {
     return (
       <footer>
-        <div className="footer p-10 bg-gray-300 text-black">
+        <div className="footer p-10 bg-yellow-300 text-black">
           <div>
-            <span className="text-4xl font-bold">Test & Learn</span>
-            <p className="text-2xl font-semibold">Culinary School</p>
+            <span className="text-4xl font-bold">Learn & Do</span>
+            <p className="text-2xl font-semibold"></p>
             <p>
-              Cumilla District, Chittagong, Bangladesh. <br />
-              Providing reliable tech since 1992
+              We are providing since 2012.
             </p>
           </div>
           <div>
@@ -50,10 +49,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="p-4 footer-center bg-gray-300 text-black">
+        <div className="p-4 footer-center bg-purple-300 text-black">
           <div>
             <p>
-              Copyright © 2023 - All right reserved by Test & Learn - Culinary
+              Copyright © 2023 - All right reserved by Test & Learn - Makeup
               School
             </p>
           </div>
