@@ -62,9 +62,8 @@ const SignUp = () => {
             <div className="text-center lg:text-left">
               <h1 className="text-5xl font-bold">Sign up now!</h1>
               <p className="py-6">
-                Welcome to Taste & Learn Makeup School! We are dedicated to
-                providing a comprehensive Makeupeducation and igniting a
-                passion for cooking. Our mission is to empower aspiring chefs
+                Welcome to our Makeup School! We are dedicated to
+                providing a comprehensive Makeup education and Our mission is to empower aspiring chefs
                 with the skills, knowledge, and cultural understanding necessary
                 to excel in the world of gastronomy.
               </p>
